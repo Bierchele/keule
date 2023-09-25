@@ -1,0 +1,84 @@
+
+
+.navigation {
+    width: 100vw;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background: crimson;
+}
+
+.abteilungs-secetion {
+    width: 50vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    left: 5px;
+    outline: 1px solid black;
+}
+
+.text-box {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.text-box:first-child {
+    min-width: 15rem;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.button-box > button {
+    height: 30px;
+    width: auto;
+    padding: 0px 10px 0px 10px;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+    background: crimson;
+}
+.button-box > button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.list-section {
+    height: 30vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid black;
+    left: 5px;
+    position: relative;
+}
+
+.list-section > :nth-child(2) {
+ padding: 0px 10px 0px 10px;
+}
+
+.radio-box {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+}    
+
+.radio-box:first-child {
+    justify-content: space-around;
+}    
+
+
+.radio-box > :nth-child(2) {
+    padding: 5px 20px 5px 20px;
+    margin: 5px;    
+    outline: 1px solid black;
+}
